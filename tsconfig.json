@@ -3,7 +3,9 @@
     "baseUrl": ".",
     "paths": {
       "@types": ["./src/types/"],
-      "@images": ["./src/assets/images/*"]
+      "@images": ["./src/assets/images/*"],
+      "@hook": ["./src/hook/index"],
+      "@server": ["./src/server/controllers/controllers"]
     },
     "target": "es5",
     "lib": [
