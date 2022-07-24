@@ -1,12 +1,12 @@
-import {IAuthInitialState, LOGIN} from "../types/auth";
 import {ReducerType} from "../types/general.types";
-import {Action} from "@reduxjs/toolkit";
+import {IAuthInitialState} from "../types/auth/auth.types";
+import {LOGIN} from "../types/auth/auth.action.types";
 
 const initialState: IAuthInitialState = {
     isLoggedIn: false
 }
 
-const reducer: ReducerType<IAuthInitialState> = (state, action) => {
+const reducer: ReducerType<IAuthInitialState> = (state = initialState, action) => {
     switch (action.type){
         case LOGIN:
             return {

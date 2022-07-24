@@ -1,4 +1,4 @@
-import {LoginType} from "@types";
+import {LoginType} from "../../types";
 import {Effect} from "../types/general.types";
 import {loginAction} from "../actions/auth.action";
 import {LoginActionType} from "../types/auth/auth.types";

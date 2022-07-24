@@ -1,19 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from "./root/App"
-import { Provider } from 'react-redux'
+import {Provider} from 'react-redux'
 import reportWebVitals from './reportWebVitals';
 import {PersistGate} from "redux-persist/integration/react";
 import {persist, store} from "./store";
+import {ChakraProvider} from "@chakra-ui/react"
+import {BrowserRouter as Router} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
     <React.StrictMode>
         <Provider store={store}>
             <PersistGate loading={null} persistor={persist}>
-                <App />
+                <ChakraProvider>
+                    <Router>
+                        <App/>
+                    </Router>
+                </ChakraProvider>
             </PersistGate>
         </Provider>
     </React.StrictMode>
