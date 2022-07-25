@@ -1,4 +1,4 @@
-import {LinksType} from "../../../types";
+import {LinksType} from "../../../types/routes.types";
 
 const links: LinksType[] = [
     {

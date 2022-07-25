@@ -6,4 +6,5 @@ export interface IAuthInitialState {
 }
 
 export type LoginActionType = PayloadActionType<IAuthInitialState, "isLoggedIn">
+
 export type LoadingLoginActionType = PayloadActionType<IAuthInitialState, "loadingLogin">

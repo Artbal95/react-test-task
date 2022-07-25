@@ -1,5 +1,5 @@
 import {Text} from "@chakra-ui/react";
-import AnimationBox from "../../../../../theme/AnimationBox";
+import AnimationBox from "../../../../../hoc/AnimationBox";
 
 interface ITitleProps {
     title?: string

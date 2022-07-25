@@ -2,7 +2,7 @@ import {Button, Flex} from "@chakra-ui/react";
 import Title from "./components/Title/Title";
 import Notification from "./components/Notification/Notification";
 import {useState} from "react";
-import {LoginType} from "../../../types";
+import {LoginType} from "../../../types/auth.types";
 import {useAppDispatch, useAppSelector} from "../../../hooks";
 import {loginEffect} from "../../../store/effects/auth.effect";
 import CustomInput from "../../constants/CustomInput/CustomInput";

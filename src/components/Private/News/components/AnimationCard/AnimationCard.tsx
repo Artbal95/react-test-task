@@ -1,4 +1,4 @@
-import AnimationBox from "../../../../../theme/AnimationBox";
+import AnimationBox from "../../../../../hoc/AnimationBox";
 import Card from "../Card/Card";
 
 interface IAnimationCardProps {

@@ -1,8 +1,8 @@
 import {Box} from "@chakra-ui/react";
 import RouterViews from "../routes";
 import AppHeader from "../components/AppHeader";
-import {Header} from "../theme/Header";
-import Main from "../theme/Main";
+import {Header} from "../hoc/Header";
+import Main from "../hoc/Main";
 import ScrollTheme from "../theme/ScrollTheme";
 
 const App = (): JSX.Element => {

@@ -20,9 +20,9 @@ const theme = extendTheme({
                 },
             },
             defaultProps: {
-                size: 'md', // default is md
-                variant: 'with-shadow', // default is solid
-                colorScheme: 'gray', // default is gray
+                size: 'md',
+                variant: 'with-shadow',
+                colorScheme: 'gray',
             },
         },
     }

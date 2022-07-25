@@ -1,4 +1,4 @@
-import {LoginType} from "../../types";
+import {LoginType} from "../../types/auth.types";
 import {NewsType} from "../../types/news.type";
 import NewsMockData from "../MockData/NewsMockData";
 

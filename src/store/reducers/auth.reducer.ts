@@ -1,6 +1,6 @@
 import {ReducerType} from "../types/general.types";
 import {IAuthInitialState} from "../types/auth/auth.types";
-import {LOADING_LOGIN, LOGIN} from "../types/auth/auth.action.types";
+import {LOADING_LOGIN, LOGIN, SET_AUTH_INITIAL_STATE} from "../types/auth/auth.action.types";
 
 const initialState: IAuthInitialState = {
     isLoggedIn: false,
@@ -18,6 +18,11 @@ const reducer: ReducerType<IAuthInitialState> = (state = initialState, action) =
             return {
                 ...state,
                 loadingLogin: action.loadingLogin
+            }
+        case SET_AUTH_INITIAL_STATE:
+            return {
+                isLoggedIn: false,
+                loadingLogin: false
             }
         default:
             return state

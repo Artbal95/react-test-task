@@ -1,6 +1,6 @@
 import {ListItem} from "@chakra-ui/react";
 import {NavLink, useLocation} from "react-router-dom";
-import {RoutesTypes} from "../../../../../../../types";
+import {RoutesTypes} from "../../../../../../../types/routes.types";
 import {useAppSelector} from "../../../../../../../hooks";
 
 interface ILinksProps extends Omit<RoutesTypes, "meta" | "component"> {

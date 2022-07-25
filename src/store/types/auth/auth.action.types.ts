@@ -1,2 +1,3 @@
 export const LOGIN = "LOGIN"
 export const LOADING_LOGIN = "LOADING_LOGIN"
+export const SET_AUTH_INITIAL_STATE = "SET_AUTH_INITIAL_STATE"

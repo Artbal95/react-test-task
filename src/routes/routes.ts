@@ -1,4 +1,4 @@
-import {RoutesTypes} from "../types";
+import {RoutesTypes} from "../types/routes.types";
 import HomePublic from "../pages/Public/HomePublic";
 import LoginPublic from "../pages/Public/LoginPublic";
 import HomePrivate from "../pages/Private/HomePrivate";

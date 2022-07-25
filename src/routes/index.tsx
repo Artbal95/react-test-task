@@ -2,7 +2,7 @@ import {Routes, Route} from "react-router-dom";
 import routes from "./routes";
 import PrivateRoutes from "../hoc/PrivateRoutes";
 import PublicRoutes from "../hoc/PublicRoutes";
-import NotFound from "../pages/Public/NotFound";
+import NotFound from "../components/NotFound";
 
 const RouterViews = (): JSX.Element => {
     return (
@@ -18,7 +18,7 @@ const RouterViews = (): JSX.Element => {
                     </Route>
                 )
             )}
-            <Route path={"*"} element={<NotFound />}/>
+            <Route path={"*"} element={<NotFound title={"This Page Not Found"} path={"/"} />}/>
         </Routes>
     )
 }
