@@ -6,7 +6,7 @@ interface IGetStartProps {
     title?: string
 }
 
-const GetStart = ({title = "Get Sign Out"}: IGetStartProps): JSX.Element => {
+const SignOut = ({title = "Sign Out"}: IGetStartProps): JSX.Element => {
 
     const dispatch = useAppDispatch()
 
@@ -21,4 +21,4 @@ const GetStart = ({title = "Get Sign Out"}: IGetStartProps): JSX.Element => {
     )
 }
 
-export default GetStart
+export default SignOut
