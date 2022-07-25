@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+<div  align="center">
+  <img src="src/assets/images/logo/logo.png" alt="logo" width="200" height="auto" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1>React Test Task</h1>
 
-## Available Scripts
+  <h4>
+      <span> · </span>
+      <a href="https://react-test-task-a7vw1oh4j-artbal95.vercel.app/">View Demo</a>
+      <span> · </span>
+  </h4>
+</div>
 
-In the project directory, you can run:
+- [About the Project](#1-about-the-project)
+    * [Screenshots](#11-screenshots)
+    * [Tech Stack](#12-tech-stack)
+    * [Color Reference](#13-color-reference)
+- [Running Project](#2-running-project)
+    * [Clone The Project](#21-clone-the-project)
+    * [Go To The Project Directory](#22-go-to-the-project-directory)
+    * [Prerequisites](#23-prerequisites)
+    * [Install Dependencies With Yarn](#24-install-dependencies-with-yarn)
+    * [Start The Server](#25-start-the-server)
 
-### `yarn start`
+## 1: About the Project
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Assumenda blanditiis, commodi enim laborum officiis repellat?
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1.1: Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div align="center"> 
+  <img src="src/assets/images/screenshots/screen1.jpg" alt="screenshot" width="250" height="auto" />
+  <img src="src/assets/images/screenshots/screen2.jpg" alt="screenshot" width="250" height="auto"/>
+  <img src="src/assets/images/screenshots/screen3.jpg" alt="screenshot" width="250" height="auto"/>
+  <img src="src/assets/images/screenshots/screen4.jpg" alt="screenshot" width="250" height="auto"/>
+</div>
 
-### `yarn test`
+### 1.2: Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://chakra-ui.com/">Chakra UI</a></li>
+  </ul>
+</details>
 
-### `yarn build`
+### 1.3: Color Reference
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Color                      | Hex                                                                      |
+|----------------------------|--------------------------------------------------------------------------|
+| Text Color                 | ![#5a5d76](https://via.placeholder.com/15/5a5d76/5a5d76?Text=+) #5a5d76  |
+| Background Primary Color   | ![#E2E8F0](https://via.placeholder.com/15/E2E8F0/E2E8F0?Text=+) #E2E8F0  |
+| Background Secondary Color | ![##0BC5EA](https://via.placeholder.com/15/0BC5EA/0BC5EA?Text=+) #0BC5EA |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 2: Running Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2.1: Clone the project
 
-### `yarn eject`
+```bash
+  git clone https://github.com/Artbal95/react-test-task.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 2.2: Go to the project directory
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd react-test-task
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 2.3: Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project uses Yarn as package manager
 
-## Learn More
+Sure that you have yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  ## -> Run
+  yarn -v
+  ## -> 1.22.17
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If You Don't Have, Install
+
+```bash
+ npm install --global yarn
+```
+
+### 2.4: Install Dependencies with yarn
+
+```bash
+  yarn install
+```
+
+### 2.5: Start the server
+
+```bash
+  yarn start
+```

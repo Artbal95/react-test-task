@@ -1,6 +1,6 @@
 import {Flex} from "@chakra-ui/react"
 import Title from "./components/Title/Title";
-import GetStart from "./components/GetStart/GetStart";
+import SignOut from "./components/SignOut/SignOut";
 import Description from "./components/Description/Description";
 
 const Home = (): JSX.Element => {
@@ -15,7 +15,7 @@ const Home = (): JSX.Element => {
         >
             <Title/>
             <Description/>
-            <GetStart/>
+            <SignOut/>
         </Flex>
     );
 };
