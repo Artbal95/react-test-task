@@ -5,7 +5,7 @@ const PublicRoutes = (): JSX.Element => {
 
     const {isLoggedIn} = useAppSelector(state => state.auth)
 
-    return isLoggedIn ? <Navigate to={"/"} replace/> : <Outlet />
+    return isLoggedIn ? <Navigate to={"/home"} replace/> : <Outlet />
 }
 
 export default PublicRoutes

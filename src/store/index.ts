@@ -5,6 +5,7 @@ import {PersistConfig} from "redux-persist/es/types";
 import * as  services from "../service"
 
 import authReducer from "./reducers/auth.reducer"
+import newsReducer from "./reducers/news.reducer";
 
 const persistConfig: PersistConfig<any> = {
     key: 'root',
@@ -13,6 +14,7 @@ const persistConfig: PersistConfig<any> = {
 
 const rootReducer = combineReducers({
     auth: authReducer,
+    news: newsReducer
 })
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)

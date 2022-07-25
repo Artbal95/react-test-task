@@ -1,10 +1,11 @@
-import {Box} from "@chakra-ui/react"
+import News from "../../components/Private/News";
+import Container from "../../hoc/Container";
 
 const NewsPrivate = (): JSX.Element => {
     return (
-         <Box>
-             Hello News Private
-         </Box>
+         <Container>
+             <News />
+         </Container>
     );
 };
 

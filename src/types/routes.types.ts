@@ -9,3 +9,7 @@ export type RoutesTypes = {
     }
 }
 
+export type LinksType = {
+    name: string
+    path: string
+}

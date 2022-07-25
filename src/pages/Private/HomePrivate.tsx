@@ -1,10 +1,11 @@
-import {Box} from "@chakra-ui/react"
+import Container from "../../hoc/Container";
+import Home from "../../components/Private/Home";
 
 const HomePrivate = (): JSX.Element => {
     return (
-         <Box>
-             Hello Home Private
-         </Box>
+         <Container>
+             <Home />
+         </Container>
     );
 };
 

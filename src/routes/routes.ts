@@ -21,7 +21,7 @@ const routes: RoutesTypes[] = [
     /** Private Routes **/
     {
         name: "Home",
-        path: "/",
+        path: "/home",
         component: HomePrivate,
         meta:{
             private: true

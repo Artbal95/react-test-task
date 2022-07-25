@@ -1,10 +1,11 @@
-import {Box} from "@chakra-ui/react"
+import Login from "../../components/Public/Login";
+import Container from "../../hoc/Container";
 
 const LoginPublic = (): JSX.Element => {
     return (
-        <Box>
-            Hello Login Public
-        </Box>
+        <Container>
+            <Login/>
+        </Container>
     );
 };
 

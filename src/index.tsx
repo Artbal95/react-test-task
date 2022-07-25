@@ -7,6 +7,7 @@ import {PersistGate} from "redux-persist/integration/react";
 import {persist, store} from "./store";
 import {ChakraProvider} from "@chakra-ui/react"
 import {BrowserRouter as Router} from 'react-router-dom';
+import theme from "./theme";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -15,7 +16,7 @@ root.render(
     <React.StrictMode>
         <Provider store={store}>
             <PersistGate loading={null} persistor={persist}>
-                <ChakraProvider>
+                <ChakraProvider theme={theme}>
                     <Router>
                         <App/>
                     </Router>
