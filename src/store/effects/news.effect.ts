@@ -8,7 +8,6 @@ export const getNewsEffect = (): Effect<NewsActionType | LoadingNewsActionType> 
         dispatch(loadingNewsAction(true))
         try {
             const res = await getNews()
-            console.log(res, "sakjdbkasbdajksbd")
             dispatch(getNewsAction(res))
             dispatch(loadingNewsAction(false))
         } catch (e: any) {

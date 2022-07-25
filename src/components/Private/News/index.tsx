@@ -37,7 +37,7 @@ const News = (): JSX.Element => {
             </Box>
             {
                 loadingNews ? <Loading /> :
-                    <Flex px={{base: "25px", md: "50px", xl: "100px"}} alignItems={"center"} justifyContent={"center"} flexWrap={"wrap"} gap={{base: "15px", md: "25px", xl: "35px"}}>
+                    <Flex px={{base: "25px", md: "50px", xl: "100px"}} alignItems={"center"} justifyContent={"center"} flexWrap={"wrap"} gap={{base: "30px", md: "35px", xl: "45px"}}>
                         {filteredNews.map(({id, title, description, image}: NewsType, index: number) => (
                             <AnimationCard key={id + index} id={id} title={title} image={image} description={description}/>
                         ))}
